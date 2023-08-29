@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar start*/
+.nav-container{
+    width: 100%;
+    height: 85px;
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    line-height: 85px;
+    z-index: 999999;
+}
+
+.left .icon{
+    color: #ff9500;
+    font-size: 30px;
+}
+.safari{
+    font-size: 25px;
+}
+
+.center a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #fff;
+}
+.center .visited{
+    background-color: #ff9500;
+    padding: 20px;
+    border-radius: 45%;
+}
+
+.circle{
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* navbar end */
+
+/* box starts */
+
+.header{
+    text-align: center;
+}
+h3{
+    color: #ff9500;
+    font-size: 30px;
+}
+
+.headSpecial{
+    font-size: 40px;
+}
+
+.box{
+    padding: 30px 30px 0 30px;
+    margin-top: 100px;
+    height: 200vh;
+
+}
+
+.flex-container{
+    display: flex;
+    gap: 20px;
+}
+.flex-items{
+    border: 2px solid #929292;
+    width: 30%;
+    height: 34em;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+.images{
+    position: relative;
+}
+
+.favorite{
+    position: absolute;
+    right: 20px;
+}
+.favorite:hover{
+    background-color: #ff9500;
+    color: #fff;
+}
+
+
+.star{
+    padding-top: 20px;
+    color: #ff9500;
+}
+
+.btn{
+    padding: 15px 0 0 0;
+}
+
+.btn input{
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.money{
+    color: #ff9500;
+    font-size: 30px;
+}
+input:hover{
+    background-color: #ff9500;
+    color: #fff;
+}
+
+
+/* box ends */

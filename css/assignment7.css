@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* navbar css starts */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    padding: 23px 0;
+    background-color: #000;
+}
+
+.left {
+    margin-top: 8px;
+}
+
+.center a {
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 0 10px;
+}
+
+.center {
+    margin-top: 13px;
+}
+
+.center .home {
+    padding: 15px;
+    border-radius: 50px;
+    background: #42b300;
+    color: #fff;
+}
+
+.right button {
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background: #42b300;
+    cursor: pointer;
+}
+
+
+
+/* navbar css end */
+
+/* section starts */
+.home-container {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    align-items: center;
+    justify-content: end; */
+    color: #ffff;
+    padding: 100px;
+}
+
+.left_part h2 {
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding-bottom: 1em;
+}
+
+.left_part p {
+    opacity: 0.8;
+    letter-spacing: 1px;
+    padding-bottom: 5em;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.right_part img {
+    width: 32em;
+    height: 38em;
+    padding-top: 3em;
+}
+
+/* section two end.......... */
+
+
+/* section three starts */
+.cards{
+    padding: 100px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;   
+    padding: 50px;  
+}
+
+.items img{
+    width: 20em;
+}
+
+
+@media screen and (max-width: 930px) {
+    .card-container{
+        flex-wrap: wrap;
+    }
+    
+}
+/* @media screen and (max-width:1168px) {
+    .home-container{
+        flex-wrap: wrap;
+    }
+    .home{
+        height: 150vh;
+        background-color: #42b300;
+    }
+} */
+
+/* home ends */

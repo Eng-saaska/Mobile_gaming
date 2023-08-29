@@ -1,0 +1,7 @@
+Communicate with other 
+people in the same space
+
+
+
+
+Cross-platform messaging allows people from iOS/Android to communicate with one another using a universal library of smiley faces, threads, and file sharing. Everyone wins!
